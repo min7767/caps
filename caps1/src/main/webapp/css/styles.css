@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+.header {
+    background-color: #d3d3d3;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.header .nav {
+    display: flex;
+    align-items: center;
+}
+.header .nav div {
+    margin-right: 20px;
+    font-size: 16px;
+}
+.header .nav button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.section {
+    background-color: #fcdada;
+    width: 45%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.section img {
+    width: 200px; /* 이미지 너비를 200px로 설정 */
+    height: auto;
+}
+.section p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.content .left, .content .right {
+    width: 45%;
+}
+.content table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.content th, .content td {
+    padding: 10px;
+    text-align: left;
+}
+.content th {
+    background-color: #fff;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+}
+.content td {
+    border-bottom: 1px solid #000;
+}
+.content .right th, .content .right td {
+    text-align: center;
+}
+.content .right td {
+    border-bottom: 1px solid blue;
+}
+.footer {
+    background-color: #d3d3d3;
+    padding: 10px;
+    text-align: center;
+}
