@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+.header {
+    background-color: #d3d3d3;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.header .nav {
+    display: flex;
+    align-items: center;
+}
+.header .nav div {
+    margin-right: 20px;
+    font-size: 16px;
+}
+.header .nav button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.container {
+    display: flex;
+}
+.sidebar {
+    width: 200px;
+    background-color: #fcdada;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+.sidebar button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.main-content h2 {
+    background-color: #d3d3d3;
+    padding: 10px;
+    margin-top: 0;
+}
+.main-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.main-content th, .main-content td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+.main-content th {
+    background-color: #f0f0f0;
+}
+.main-content .status {
+    text-align: right;
+}
+.footer {
+    background-color: #d3d3d3;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
